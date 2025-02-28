@@ -1,0 +1,24 @@
+.app-header{
+  margin-bottom: 50px;
+  padding: 24px 50px;
+  display: flex;
+  justify-content: space-between;
+  background-color: rgba(17, 106, 204, 1);
+  filter: drop-shadow(0 5px 20px rgba(0, 0, 0, 0.25));
+
+  &__title{
+    color: white;
+    font-weight: 300;
+    font-size: 48px;
+  }
+
+  &__nav{
+    display: flex;
+    gap: 25px;
+  }
+
+  &__btn{
+    color: rgba(17, 106, 204, 1);
+    background-color: white;
+  }
+}

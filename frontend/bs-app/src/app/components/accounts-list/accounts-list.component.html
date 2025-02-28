@@ -1,0 +1,32 @@
+<div class="accounts">
+  <div class="accounts__nav">
+    <div class="accounts__top-info">
+      <h2 class="accounts__title">Ваши счета</h2>
+      <select id="sorting" class="accounts__select">
+        <option value="" disabled selected hidden>Сортировка</option>
+        <option value="tel">По номеру</option>
+        <option value="balance">По балансу</option>
+        <option value="last-transaction">По последней транзакции</option>
+      </select>
+    </div>
+
+    <button class="btn accounts__btn">Создать новый счет</button>
+  </div>
+  <ul class="accounts__list">
+    <li class="accounts__item">
+      <div class="info">
+        <div class="top-info">
+          <span class="account__number">123123345346</span>
+          <span class="account__balance">3212 ₽</span>
+        </div>
+
+        <span class="account__last-transaction">
+          <strong>Последняя транзакция:</strong>
+          <span class="transaction-date">21 августа</span>
+        </span>
+      </div>
+      <button class="btn account__btn">Открыть</button>
+    </li>
+
+  </ul>
+</div>
